@@ -39,7 +39,7 @@ Hosting platform [Firebase](https://firebase.google.com)
 	- [x] logo
 	- [ ] dinosaurs
 - [x] Install Vuetify
-	- [ ] Create application layout
+	- [x] Create application layout
 - [ ] Build components
 	- [ ] Create user dashboard
 		- [ ] Set name
