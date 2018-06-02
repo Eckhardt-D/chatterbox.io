@@ -37,38 +37,38 @@ Hosting platform [Firebase](https://firebase.google.com)
 - [x] Install vue pwa
 - [x] Create the static assets
 	- [x] logo
-	- [] dinosaurs
+	- [ ] dinosaurs
 - [x] Install Vuetify
-	- [] Create application layout
-- [] Build components
-	- [] Create user dashboard
-		- [] Set name
-		- [] Get unique pin
-	- [] Create chat template
-		- [] Input form
-		- [] Message card
-			- [] time
-	- [] Create recents
-	- [] Create favourites
-	- [] Create Group chat layout
-		- [] Add users
-		- [] Enable favouriting
-- [] Install socket.io
-	- [] Create message instance
+	- [ ] Create application layout
+- [ ] Build components
+	- [ ] Create user dashboard
+		- [ ] Set name
+		- [ ] Get unique pin
+	- [ ] Create chat template
+		- [ ] Input form
+		- [ ] Message card
+			- [ ] time
+	- [ ] Create recents
+	- [ ] Create favourites
+	- [ ] Create Group chat layout
+		- [ ] Add users
+		- [ ] Enable favouriting
+- [ ] Install socket.io
+	- [ ] Create message instance
 
 
 **stretch**
 	* Add profile image
 
 # TODO LIST FOR SERVER DEVELOPMENT
-- [] Set up express server
-- [] Install passport.js
-- [] Set up socket
-- [] Emit messages
-	- [] Limit emmisson to chosen user
-- [] Install firebase/firestore
-	- [] Create the users collection
-	- [] Create document for every chat
-	- [] Create to: from: and message object
-	- [] Create document for every group
-	- [] Create users: array and sender:, message:, votes
+- [x] Set up express server
+- [ ] Install passport.js
+- [ ] Set up socket
+- [ ] Emit messages
+	- [ ] Limit emmisson to chosen user
+- [ ] Install firebase/firestore
+	- [ ] Create the users collection
+	- [ ] Create document for every chat
+	- [ ] Create to: from: and message object
+	- [ ] Create document for every group
+	- [ ] Create users: array and sender:, message:, votes
