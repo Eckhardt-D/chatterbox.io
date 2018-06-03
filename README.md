@@ -25,10 +25,9 @@
 * Clone this repository
 * Cd into the directory
 * Run npm install
-* Dev = npm run dev
-* Build = npm run build
+* To run this app, use ```npm start```
 
-Hosting platform [Firebase](https://firebase.google.com)
+Hosting platform [now.sh](https://now.sh)
 
 * ### This application requires firebase/firestore and you'll need to set it to your personal config for testing.
 
@@ -41,6 +40,8 @@ Hosting platform [Firebase](https://firebase.google.com)
 - [x] Install Vuetify
 	- [x] Create application layout
 - [ ] Build components
+	- [ ] Create Login route
+	- [x] Create Sign up route
 	- [ ] Create user dashboard
 		- [ ] Set name
 		- [ ] Get unique pin
@@ -53,7 +54,7 @@ Hosting platform [Firebase](https://firebase.google.com)
 	- [ ] Create Group chat layout
 		- [ ] Add users
 		- [ ] Enable favouriting
-- [ ] Install socket.io
+- [x] Install socket.io
 	- [ ] Create message instance
 
 
@@ -62,12 +63,12 @@ Hosting platform [Firebase](https://firebase.google.com)
 
 # TODO LIST FOR SERVER DEVELOPMENT
 - [x] Set up express server
-- [ ] Install passport.js
-- [ ] Set up socket
+- [x] Install passport.js
+- [x] Set up socket
 - [ ] Emit messages
 	- [ ] Limit emmisson to chosen user
-- [ ] Install firebase/firestore
-	- [ ] Create the users collection
+- [ ] Install mongoDB
+	- [x] Create the users collection
 	- [ ] Create document for every chat
 	- [ ] Create to: from: and message object
 	- [ ] Create document for every group

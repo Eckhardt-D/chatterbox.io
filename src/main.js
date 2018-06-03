@@ -11,9 +11,9 @@ import VueSocketIO from 'vue-socket.io';
 
 export const SocketInstance = socketio('http://localhost:3000');
 
-Vue.use(VueSocketIO, SocketInstance)
 Vue.config.productionTip = false
 Vue.use(Vuetify)
+Vue.use(VueSocketIO, SocketInstance)
 
 /* eslint-disable no-new */
 new Vue({
